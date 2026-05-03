@@ -27,3 +27,9 @@ EXPOSE 80
 - Learned Docker basics  
 - Understood containers and images  
 - Deployed a simple web app using Docker  
+## How to Run
+
+docker build -t my-app .
+docker run -d -p 8080:80 my-app
+
+Then open: http://localhost:8080
